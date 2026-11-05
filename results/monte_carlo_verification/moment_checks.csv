@@ -1,0 +1,3 @@
+Moment,Theoretical,Simulated,Difference,Test statistic,Pass
+Mean,104.08107741923882,104.00955268623974,-0.07152473299908024,z = -1.071,True
+Variance,442.097839044171,445.7113497883306,3.613510744159612,relative diff = 0.817%,True

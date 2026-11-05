@@ -1,0 +1,56 @@
+{
+  "S0": 100.0,
+  "maturity": 1.0,
+  "risk_free_rate": 0.04,
+  "baseline_volatility": 0.2,
+  "dividend_yield": 0.0,
+  "strikes": [
+    90,
+    100,
+    110
+  ],
+  "test_volatilities": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "N": 100000,
+  "convergence_budgets": [
+    1000,
+    4000,
+    16000,
+    64000,
+    256000,
+    1024000
+  ],
+  "hedging": {
+    "strike": 100.0,
+    "real_world_drift": 0.08,
+    "paths": 20000,
+    "daily_steps": 252,
+    "schedules": {
+      "Quarterly": 4,
+      "Monthly": 12,
+      "Weekly": 52,
+      "Daily": 252
+    },
+    "transaction_costs": 0.0,
+    "fitted_slope": -0.48275240256527685,
+    "unhedged_std": 16.230642796834864
+  },
+  "seeds": {
+    "baseline": 42,
+    "convergence": 2027,
+    "hedging": 2028
+  },
+  "z_95": 1.96,
+  "variance_tolerance": 0.02,
+  "convergence_slope": -0.5068250852741004,
+  "environment": {
+    "python": "3.11.13",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.9"
+  }
+}

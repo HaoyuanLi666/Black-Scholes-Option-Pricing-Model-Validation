@@ -1,0 +1,7 @@
+Method,Test,Prices,Pass
+Black-Scholes,A. Decreasing in strike,"[16.0604, 9.9251, 5.6588]",True
+Black-Scholes,B. Increasing in volatility,"[6.1785, 9.9251, 13.7533]",True
+Black-Scholes,C. No-arbitrage bounds,"[16.0604, 9.9251, 5.6588]",True
+Monte Carlo,A. Decreasing in strike,"[16.0185, 9.8969, 5.6606]",True
+Monte Carlo,B. Increasing in volatility,"[6.1591, 9.8969, 13.7273]",True
+Monte Carlo,C. No-arbitrage bounds,"[16.0185, 9.8969, 5.6606]",True
